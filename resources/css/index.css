@@ -8,7 +8,8 @@ body {
 }
 
 /***NavBar***/
-nav{
+
+nav {
     position: fixed;
     padding-top: 4.5px;
     padding-bottom: 4.5px;
@@ -30,6 +31,7 @@ nav img {
 nav ul {
     margin-right: 10px;
 }
+
 nav ul li {
     font-family: Helvetica;
     font-size: 22px;
@@ -42,6 +44,15 @@ nav ul li {
 
 /***Hero section***/
 
-#heroSection img{
-   height: 700px;
+#heroSection {
+    display: flex;
+    flex-direction: column;
 }
+
+#heroSection img {
+    min-height: 700px;
+    min-width: 1200px;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+
