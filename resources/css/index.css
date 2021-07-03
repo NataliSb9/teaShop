@@ -39,3 +39,24 @@ nav ul li {
     list-style: none;
     display: inline;
 }
+
+/***Hero section***/
+
+#heroSection{
+    display: flex;
+    justify-content: center;
+    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+}
+
+#heroSection::before{
+    content: '';
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+    opacity: 0.75;
+    background-color: rgba(184, 124, 143, 0.459);
+}
