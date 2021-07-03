@@ -7,7 +7,7 @@ body {
     margin: 0 auto;
 }
 
-/* NAVIGATION */
+/***NavBar***/
 nav{
     position: fixed;
     padding-top: 4.5px;
@@ -42,21 +42,6 @@ nav ul li {
 
 /***Hero section***/
 
-#heroSection{
-    display: flex;
-    justify-content: center;
-    background-image: url(https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    height: 700px;
-}
-
-#heroSection::before{
-    content: '';
-    position: absolute;
-    right: 0px;
-    bottom: 0px;
-    left: 0px;
-    opacity: 0.75;
-    background-color: rgba(184, 124, 143, 0.459);
+#heroSection img{
+   height: 700px;
 }
