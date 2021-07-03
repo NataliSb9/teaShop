@@ -8,3 +8,13 @@ nav img {
     height: 50px;
     margin-left: 10px;
 }
+
+nav ul li {
+    font-family: Helvetica;
+    font-size: 22px;
+    text-transform: capitalize;
+    list-style: none;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+}
