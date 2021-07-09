@@ -1,6 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 body {
     background-color: black;
-    margin: 0;
 }
 
 .container {
@@ -46,13 +50,32 @@ nav ul li {
 
 #heroSection {
     display: flex;
-    flex-direction: column;
+    justify-content: center;
 }
 
-#heroSection img {
-    min-height: 700px;
-    min-width: 1200px;
-    margin-right: 50px;
-    margin-left: 50px;
+#heroSectionImg{
+    width: 1200px;
+    height: 700px;
 }
 
+#heroSectionText{
+    position: absolute;
+    top: 350px;
+    width: 1200px;
+    height: 90px;
+    padding-top: 20px;
+    color: seashell;
+    background-color: rgb(17, 17, 17);
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    object-fit:inherit;
+}
+#heroSectionText h2{
+    font-size: 34px;
+    text-transform: capitalize;
+}
+#heroSectionText h4{
+    line-height: 40px;
+    font-size: 18px;
+    text-transform: capitalize;
+}
