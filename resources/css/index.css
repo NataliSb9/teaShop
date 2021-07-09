@@ -11,6 +11,10 @@ body {
     margin: 0 auto;
 }
 
+main {
+    display: flex;
+    justify-content: center;
+}
 /***NavBar***/
 
 nav {
@@ -78,4 +82,38 @@ nav ul li {
     line-height: 40px;
     font-size: 18px;
     text-transform: capitalize;
+}
+
+/****TeaMonth***/
+
+#teaMonth{
+    background-color: blueviolet;
+    width: 1000px;
+    display: flex;
+    justify-content: center;
+    margin-right: 80px;
+    margin-left: 40px;
+}
+
+/****TeaMonth Img***/
+#teaImg {
+    display: flex;
+    flex-direction: row;
+    object-fit: contain;
+}
+figure{
+    margin: 20px;
+}
+#teaImg figure img {
+    height: 200px;
+    width: 300px;
+}
+
+figcaption {
+    color: seashell;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 600;
 }
