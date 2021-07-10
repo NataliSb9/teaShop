@@ -14,6 +14,9 @@ body {
 main {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
 }
 /***NavBar***/
 
@@ -86,12 +89,11 @@ nav ul li {
 }
 
 /****TeaMonth***/
-
 #teaMonth{
-    width: 1000px;
-    margin-top: 40px;
+    margin-top: 80px;
     display: flex;
     justify-content: center; 
+    width: 1000px;
 }
 
 #teaMonthTitle {
@@ -107,6 +109,7 @@ nav ul li {
 
 #teaMonthTitle p {
     font-weight: 600;
+    margin-top: 28px;
 }
 /****TeaMonth Img***/
 
@@ -114,7 +117,12 @@ nav ul li {
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
-    margin-top: 70px
+    margin-top: 30px
+}
+
+#teaImg figure {
+    margin-right: 22px;
+    margin-left: 5px;
 }
 
 #teaImg figure img {
@@ -122,10 +130,6 @@ nav ul li {
     width: 300px;
 }
 
-#teaImg figure {
-    margin-right: 20px;
-    margin-left: 10px;
-} 
 
 figcaption {
     color: seashell;
@@ -136,4 +140,11 @@ figcaption {
     font-weight: 600;
     margin-top: 10px;
     margin-bottom: 27px;
+}
+
+/**Locations***/
+
+#locations {
+    color: seashell;
+    display: flex;
 }
