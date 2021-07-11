@@ -10,13 +10,18 @@ body {
 .container {
     margin: 0 auto;
 }
+.row{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
 
 main {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-
 }
 /***NavBar***/
 
@@ -91,6 +96,7 @@ nav ul li {
 /****TeaMonth***/
 #teaMonth{
     margin-top: 80px;
+    margin-bottom: 70px;
     display: flex;
     justify-content: center; 
     width: 1000px;
@@ -130,7 +136,6 @@ nav ul li {
     width: 300px;
 }
 
-
 figcaption {
     color: seashell;
     font-family: Arial, Helvetica, sans-serif;
@@ -144,7 +149,54 @@ figcaption {
 
 /**Locations***/
 
+
 #locations {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 1200px;
+    height: 500px;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    background-position: center -75px;
+    object-fit: cover;
+}
+
+
+#titleLocation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+#titleLocation h2{
+    font-family: Helvetica,sans-serif;
+    font-size: 38px;
+    text-align: center;
+    color: seashell;
+}
+
+#locations article {
+    margin-bottom: 80px;
+}
+.adress {
+    width: 300px;
+    height: 234px;
+    background-color: rgb(3, 3, 3);
+    margin-right: 20px;
+    margin-left: 20px;
+    line-height: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
     color: seashell;
     display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.adress p {
+    font-size: 18px;
 }
