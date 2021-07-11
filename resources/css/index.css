@@ -3,6 +3,9 @@
     padding: 0;
 }
 
+html {
+    font-size: 22px;
+}
 body {
     background-color: black;
 }
@@ -51,7 +54,7 @@ nav ul {
 
 nav ul li {
     font-family: Helvetica;
-    font-size: 22px;
+    font-size: 1rem;
     padding-left: 18px;
     text-transform: capitalize;
     text-decoration: underline;
@@ -84,12 +87,12 @@ nav ul li {
     object-fit:inherit;
 }
 #heroSectionText h2{
-    font-size: 34px;
+    font-size: 1.6rem;
     text-transform: capitalize;
 }
 #heroSectionText h4{
     line-height: 40px;
-    font-size: 18px;
+    font-size: 1rem;
     text-transform: capitalize;
 }
 
@@ -140,7 +143,7 @@ nav ul li {
 figcaption {
     color: seashell;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1rem;
     text-align: center;
     text-transform: capitalize;
     font-weight: 600;
@@ -173,7 +176,7 @@ figcaption {
 }
 #titleLocation h2{
     font-family: Helvetica,sans-serif;
-    font-size: 34px;
+    font-size: 1.6rem;
     text-align: center;
     color: seashell;
 }
@@ -189,7 +192,7 @@ figcaption {
     margin-left: 20px;
     line-height: 50px;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: seashell;
     display: flex;
     flex-direction: column;
@@ -198,7 +201,7 @@ figcaption {
 }
 
 .adress p {
-    font-size: 18px;
+    font-size: 0.88rem;
 }
 
 /***Contact**/
@@ -224,12 +227,12 @@ figcaption {
 }
 
 #contactText h5 {
-    font-size: 19px;
+    font-size: 0.88rem;
     margin-bottom: 10px;
 }
 
 #contactText p {
-    font-size: 19px;
+    font-size: 0.88rem;
 }
 
 /**footer***/
@@ -244,5 +247,5 @@ footer {
     color: seashell;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 0.8rem;
 }
